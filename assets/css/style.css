@@ -1,0 +1,269 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    height:80px;
+    background-color: #AE9A64;
+}
+
+.logo{
+    
+    display:flex;
+    align-items:center;
+
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 260px;
+    margin-top: 0px;
+}
+
+nav ul, nav li{
+    list-style-type:none;
+    display:flex;
+    list-style-type:none;
+}
+
+nav a {
+    display:block;
+    text-decoration: none;
+    padding:12px;
+    color:#2F2E2E;
+    font-family:Lulo 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icon-text{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 19px;
+}
+
+nav .active a, nav a:hover{
+    color:white
+}
+
+.faixa {
+    background-color: #242323
+}
+
+.faixa, a {
+    display: flex;
+    justify-content: center;
+    color: #AE9A64;
+}
+#banner{
+    justify-content: center;
+    background-image: url('../images/burguezada.jfif');
+    background-position:center;
+    background-size:cover;
+    height: 2000px;
+    display:flex;
+}
+
+.banner_headline{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:white;
+    font-size:58px;
+    text-shadow:0px 1px 0px #555555;
+    max-width: 350px;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    -webkit-text-stroke: 1px #f1faee;
+    margin-left: 150px;
+}
+
+.banner_headline2{
+    margin-left: 310px;
+    font-size: 30px;
+}
+
+.banner_options{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2F2E2E;
+    border-radius: 25px;
+    
+}
+
+.banner_headline h2{
+    color:#ffffff;
+    font-size:20px;
+    text-shadow: 0px 1px 0px #555555;
+    max-width: 350px;
+}
+
+.banner1{
+    text-align: center;
+  
+
+}
+
+.banner_title, .banner_desc{
+    color: #AE9A64;
+}
+
+p{
+  color: #AE9A64;  
+  font-weight:100px;
+}
+
+.banner2{
+    text-align: center;
+
+}
+
+.banner3{
+    text-align: center;
+
+}
+
+.banner1, .banner2, .banner3{
+    flex:1;
+    color:#ffffff;
+    padding:10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width:200px;
+    
+}
+.banner_desc{
+    font-size:12px;
+    margin-top:20px;
+    margin-bottom:12px
+}
+
+.banner_title{
+    font-size:21px;
+}
+
+.banner_options a{
+    text-decoration:none;
+    border:#ffffff solid 1px;
+    color:#ffffff;
+    padding:5px;
+    font-size:12px;
+    /*border-radius:10%;*/
+}
+
+.column {
+    flex-direction:column
+}
+
+#geral{
+    display:flex;
+    justify-content: center;
+}
+
+.widget_title{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.widget_title_text{
+    color:#000000;
+    font-size:21px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.widget_title_bar{
+    width:50px;
+    height:5px;
+    background-color:#36a9e1;
+    margin-top:10px;
+}
+
+#rodape{
+    background-color:#1e1e1e;
+    display:flex;
+    justify-content:center;
+    height:40px;
+    line-height:40px;
+    color:#5c5c5c;
+    font-size:12px;
+    margin-top:30px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+@media (max-widhth:800px){
+
+.banner_headline h1{
+    font-size:55px;
+    padding:20px;
+}
+
+.banner_headline h2{
+    font-size:17px;
+}
+
+.banner_options{
+    height:auto;
+    flex-direction:column;
+}
+
+#geral{
+    padding: 20px;
+}
+
+#rodape{
+    flex-direction:column;
+    padding:20px;
+}
+}
+
+#wid1 {
+    width: 60px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: -10px;
+    margin-left: 113px;
+}
+
+.col-4{
+    display: flex;
+    margin-left:25px;
+    background-color: #000000;
+    width: 200px;
+    height: 60px;
+    border-radius: 25%;
+}
+
+.zoldik{
+    display: flex;
+    background-color: red;
+    margin-right: 1000px;
+    margin-top: 1000px;
+    text-align: center;
+    width: 300px;
+}
+#thor{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    margin-top: 800px;
+    margin-left: 300px;
+}
+
+#teste2{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    margin-top: -200px;
+    margin-right: 1000px;
+}
+#teste3{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    margin-left: 600px;
+    margin-top: -200px;
+}
