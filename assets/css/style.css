@@ -5,7 +5,8 @@ body{
 
 header{
     display:flex;
-    justify-content:center;
+    position: fixed;
+    width: 2000px;
     height:80px;
     background-color: #AE9A64;
 }
@@ -47,14 +48,17 @@ nav .active a, nav a:hover{
 }
 
 .faixa {
-    background-color: #242323
+    display: flex;
+    background-color: #242323;
+    text-align: center;
 }
 
-.faixa, a {
+.faixa, a{
     display: flex;
-    justify-content: center;
     color: #AE9A64;
+    text-align: center;
 }
+
 #banner{
     justify-content: center;
     background-image: url('../images/burguezada.jfif');
@@ -77,12 +81,14 @@ nav .active a, nav a:hover{
     font-family:Arial, Helvetica, sans-serif;
     display:flex;
     -webkit-text-stroke: 1px #f1faee;
-    margin-left: 150px;
+    margin-left: 650px;
+    margin-top: 70px;
 }
 
 .banner_headline2{
-    margin-left: 310px;
+    margin-left:780px;
     font-size: 30px;
+    color: white;
 }
 
 .banner_options{
@@ -194,6 +200,29 @@ p{
     font-family:Arial, Helvetica, sans-serif
 }
 
+#thor{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    margin-top: 800px;
+    margin-left: 300px;
+}
+
+#teste2{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    margin-top: -200px;
+    margin-right: 1000px;
+}
+#teste3{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+
 @media (max-widhth:800px){
 
 .banner_headline h1{
@@ -245,25 +274,4 @@ p{
     text-align: center;
     width: 300px;
 }
-#thor{
-    width: 250px;
-    height: 250px;
-    background-color: blueviolet;
-    margin-top: 800px;
-    margin-left: 300px;
-}
 
-#teste2{
-    width: 250px;
-    height: 250px;
-    background-color: blueviolet;
-    margin-top: -200px;
-    margin-right: 1000px;
-}
-#teste3{
-    width: 250px;
-    height: 250px;
-    background-color: blueviolet;
-    margin-left: 600px;
-    margin-top: -200px;
-}
